@@ -1,0 +1,5 @@
+## How to RUN the Vagrant Command
+
+```sh
+vagrant ssh kube-lab -c "ttyd -W bash" --no-tty
+```
