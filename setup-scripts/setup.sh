@@ -10,14 +10,14 @@ sudo swapoff -a
 # ===================================================
 sudo apt-get update && sudo apt-get install libjson-c-dev libuv1-dev zlib1g-dev libwebsockets-dev curl build-essential wget git cmake -y
 sudo git clone https://github.com/tsl0922/ttyd.git && cd ttyd && mkdir build && cd build
-sudo cmake .. && sudo make && sudo make install && cd ../ && rm -rf ttyd
+sudo cmake .. && sudo make && sudo make install && cd ../ && sudo rm -rf ttyd
 
 # Install Docker
 # ===================================================
 sudo apt-get update -y
 sudo apt-get install -y docker.io
 
-# Install Kubernetes utilities
+# Install Kubernetes Utilities
 # ===================================================
 KUBE_VERSION='1.27.1-00'
 sudo apt-get update

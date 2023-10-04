@@ -1,0 +1,8 @@
+---
+# Define a Name and Port of the VM, after checking vagrant
+# ENV.
+# ===================================================
+
+vm_name:
+vm_port_console:
+vm_port_ssh:
